@@ -10,8 +10,9 @@
       <p class="title">
         <%=@post.title %>
       </p>
-      <div class="text-center edit links">
-        <%=link_to "Back to Post images", posts_path %>
+      <div class="text-center edit-links">
+        <%=link_to "Back to Post images", posts_path %>|
+        <%=link_to "Edit Post", edit_post_path(@post) %>
       </div>
     </div>
   </div>
