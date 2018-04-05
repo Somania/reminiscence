@@ -11,8 +11,9 @@
         <%=@post.title %>
       </p>
       <div class="text-center edit-links">
-        <%=link_to "Back to Post images", posts_path %>|
-        <%=link_to "Edit Post", edit_post_path(@post) %>
+        <%=link_to "Back to Post images", posts_path, class: "btn btn-primary" %>
+        <%=link_to "Edit Post", edit_post_path(@post),  class: "btn btn-success" %>
+        <%=link_to "Delete Post", post_path(@post), method: :delete,data: { confirm: "Are you sure ?"},  class: "btn btn-danger" %>
       </div>
     </div>
   </div>
