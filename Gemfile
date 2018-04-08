@@ -8,14 +8,14 @@ gem 'sqlite3'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
-#paperclip for image upload
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 gem 'paperclip'
 gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'simple_form'
 gem 'bootstrap-sass'
-
+gem 'devise'
 gem 'bootsnap', require: false
 
 group :development, :test do
@@ -32,7 +32,7 @@ end
 group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
-    gem 'chromedriver-helper'
+  gem 'chromedriver-helper'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
