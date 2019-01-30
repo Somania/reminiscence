@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is an image sharing web app to share pictures with friends & friends can share the picture , comment on the picture.
 
-* Ruby version
+* Ruby version 2.5.0
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database postgres 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*  run rake db:create and then rake db:migrate
